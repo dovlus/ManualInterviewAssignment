@@ -1,0 +1,36 @@
+.menu_box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 174px;
+}
+
+.menu_box_title {
+    color: var(--father-hero, #0b3b3c);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-family: TT Norms;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.menu_item {
+    color: var(--father-hero, #0b3b3c);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body 4 (16px) */
+    font-family: TT Norms;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}
+
+.icon_container {
+    display: flex;
+    gap: 20px;
+}

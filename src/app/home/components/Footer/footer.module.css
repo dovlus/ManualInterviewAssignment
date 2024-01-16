@@ -1,0 +1,33 @@
+.container {
+    padding: 0 138px;
+    background: var(--grandfather-60, #e8efe9);
+}
+
+.menu {
+    display: flex;
+    padding: 72px 0;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #0b3b3c;
+}
+
+.menu_sub_container {
+    display: flex;
+    gap: 25px;
+}
+
+.copyright {
+    padding: 25px 0;
+    border-top: 1px solid #bdcdc5;
+    text-align: center;
+    color: var(--grandfather-30, #6d8a83);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body 4 (16px) */
+    font-family: TT Norms;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+}

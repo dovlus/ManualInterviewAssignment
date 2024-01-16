@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 70px 0 90px;
+}
+
+.heading {
+    color: var(--father-hero, #0b3b3c);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Heading 3 (40px) */
+    font-family: TT Norms;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 150% */
+    letter-spacing: -1.2px;
+}
+
+.problems_section {
+    display: flex;
+    flex-direction: column;
+    gap: 180px;
+}

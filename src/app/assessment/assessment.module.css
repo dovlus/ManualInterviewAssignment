@@ -1,0 +1,6 @@
+.container {
+    display: grid;
+    gap: 80px;
+    padding: 80px 20px;
+    justify-items: center;
+}
