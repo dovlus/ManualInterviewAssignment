@@ -8,7 +8,7 @@ export default function Content() {
             <div className={style.heading}>What we can help with</div>
             <div className={style.problems_section}>
                 {problems.map((problem) => (
-                    <ProblemCard {...problem} />
+                    <ProblemCard key={problem.problemNumber} {...problem} />
                 ))}
             </div>
         </div>

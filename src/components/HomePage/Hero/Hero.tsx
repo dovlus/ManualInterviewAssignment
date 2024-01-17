@@ -18,7 +18,6 @@ export default function Hero({ startQuiz }: { startQuiz: () => void }) {
                 </div>
                 <div className={style.subtext}>
                     We’re working around the clock to bring you a holistic
-                    <br />
                     approach to your wellness. From top to bottom, inside and
                     out.
                 </div>

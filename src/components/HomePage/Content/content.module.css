@@ -2,25 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
-    padding: 70px 0 90px;
+    gap: var(--spacing-70);
+    padding: var(--spacing-70) 0 var(--spacing-90);
 }
 
 .heading {
-    color: var(--father-hero, #0b3b3c);
+    color: var(--father-hero);
     font-feature-settings: 'clig' off, 'liga' off;
 
-    /* Heading 3 (40px) */
-    font-family: TT Norms;
-    font-size: 40px;
+    /* Heading 3 (2.5rem) */
+    font-size: 2.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 60px; /* 150% */
+    line-height: 3.75rem; /* 150% */
     letter-spacing: -1.2px;
 }
 
 .problems_section {
     display: flex;
     flex-direction: column;
-    gap: 180px;
+    gap: var(--spacing-180);
 }

@@ -1,0 +1,105 @@
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* max-width: 142.5rem; */
+    padding: var(--spacing-30) var(--spacing-138);
+    background-image: url('/images/Hero-BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 1440 / 750;
+    background-position-x: 80%;
+}
+
+.content {
+    width: 30rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.logo {
+    position: absolute;
+    color: var(--father-hero);
+}
+
+.header {
+    color: var(--father-hero);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 5.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 5.625rem;
+    letter-spacing: -2.7px;
+}
+
+.subtext {
+    margin-top: var(--spacing-20);
+    color: var(--father-hero);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.quizButton {
+    display: flex;
+    padding: 0.938rem 1.875rem;
+    width: max-content;
+    margin-top: var(--spacing-36);
+    background: var(--son-accent);
+    color: var(--white);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0.938rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.quizButton:hover {
+    opacity: 0.9;
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    .container {
+        padding: 1.875rem 3.125rem;
+        height: 100%;
+        background-size: cover;
+        background-position-x: 80%;
+    }
+
+    .header {
+        font-size: 3.125rem;
+        line-height: 3.125rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 1.875rem;
+        height: 100%;
+        background-size: cover;
+        background-position-x: 80%;
+    }
+
+    .content {
+        margin-top: 16.875rem;
+        align-self: end;
+    }
+
+    .header {
+        font-size: 3.75rem;
+        line-height: 3.75rem;
+        color: var(--white);
+    }
+
+    .subtext {
+        color: var(--white);
+    }
+}
